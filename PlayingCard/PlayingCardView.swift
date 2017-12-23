@@ -11,7 +11,7 @@ import UIKit
 class PlayingCardView: UIView {
     
     @IBInspectable
-    var rank: Int = 13 { didSet { setNeedsDisplay(); setNeedsLayout()} }
+    var rank: Int = 1 { didSet { setNeedsDisplay(); setNeedsLayout()} }
     
     @IBInspectable
     var suit: String = "♣️" { didSet { setNeedsDisplay(); setNeedsLayout()} }
